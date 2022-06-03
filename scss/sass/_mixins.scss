@@ -1,0 +1,15 @@
+@mixins links($color) {
+width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #222222;
+	color: ($color);
+	font-size: 1.2rem;
+	font-weight: 600;
+	text-align: center;
+	p {
+		color: #928e88;
+		font-size: 1.3rem;
+	}
+}
